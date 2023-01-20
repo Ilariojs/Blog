@@ -1,0 +1,86 @@
+.home_user_nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.home_user_nav_content_logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.home_user_nav_content_logo:first-child{
+    font-size: 60px;
+}
+.home_user_nav_content_logo p{
+    font-family: 'Amatic SC';
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-left: 10px;
+}
+.home_user_nav_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+    overflow: hidden;
+}
+.home_user_nav_button_profile {
+    position: relative;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_user_nav_button_profile button{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #cbcbcb;
+    background: #fff;
+    outline: 0;
+    cursor: pointer;
+}
+
+.home_user_nav_button_profile button::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 9px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background: rgb(0, 255, 0);
+}
+
+.home_user_main{
+    background: #F2F2F2;
+    width: 100%;
+    height: 100%;
+}
+
+.home_user_main_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.home_user_main_title{
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 60px;
+}
+.home_user_main_form form{
+    display:flex;
+    place-items: center;
+    flex-direction: column;
+}
